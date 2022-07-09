@@ -1,0 +1,51 @@
+Em uma sala de aula, há vinte e cinco alunos.
+Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M).
+Eles são divididos conforme a ilustração 1 em anexo.
+
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
+
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
+
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um.
+
+===== RESPOSTA ============================================
+
+Após analisar os anexos, notei que no anexo 2 (quando é feita a adição de mais 11 alunos), todas as linhas e colunas possuem 4 alunos de uma matéria e 2 alunos de outra matéria, então, quando é feita a troca de lugares uma linha e uma coluna ficarão com 3 alunos de Português e 3 alunos de Matemática.
+
+Conforme análise abaixo, é possível ver que a troca foi realizada na LINHA 5 e COLUNA 5, pois ambas possuem 3 alunos de cada matéria
+
+P = Português 
+M = Matemática
+
+LINHAS            COLUNAS
+
+ILUSTRAÇÃO 01      ILUSTRAÇÃO 01 
+      P | M	          1 | 2 | 3 | 4 | 5 |
+--------|----      ---------|---|---|---|---|
+1 ->  3 | 2         P ->  2 | 3 | 1 | 3 | 2 |
+2 ->  2 | 3 	    M ->  3 | 2 | 4 | 2 | 3 |
+2 ->  2 | 3 
+3 ->  1 | 4
+4 ->  3 | 2
+5 ->  2 | 3 
+
+
+ILUSTRAÇÃO 02      ILUSTRAÇÃO 02
+      P | M	          1 | 2 | 3 | 4 | 5 | 6	|
+--------|----      ---------|---|---|---|---|---|
+1 ->  4 | 2         P ->  2 | 4 | 2 | 4 | 2 | 4 |
+2 ->  2 | 4  	    M ->  4 | 2 | 4 | 2 | 4 | 2 | 
+3 ->  2 | 4
+4 ->  4 | 2
+5 ->  2 | 4
+6 ->  4 | 2 
+
+ILUSTRAÇÃO 03      ILUSTRAÇÃO 03
+      P | M	          1 | 2 | 3 | 4 | 5 | 6	|
+--------|----      ---------|---|---|---|---|---|
+1 ->  4 | 2         P ->  2 | 4 | 2 | 4 | 3 | 4 |
+2 ->  2 | 4   	    M ->  4 | 2 | 4 | 2 | 3 | 2 |
+3 ->  2 | 4
+4 ->  4 | 2
+5 ->  3 | 3
+6 ->  4 | 2 
